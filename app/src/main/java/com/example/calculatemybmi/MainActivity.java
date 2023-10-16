@@ -6,17 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RadioButton male;
-    private RadioButton female;
-    private EditText age;
     private EditText feet;
     private EditText inches;
     private EditText weight;
@@ -33,9 +28,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void findViews() {
-        male = findViewById(R.id.radio_button_male);
-        female = findViewById(R.id.radio_button_female);
-        age = findViewById(R.id.edit_text_age);
         feet = findViewById(R.id.edit_text_feet);
         inches = findViewById(R.id.edit_text_inches);
         weight = findViewById(R.id.edit_text_weight);

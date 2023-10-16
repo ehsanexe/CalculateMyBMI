@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     android:orientation="vertical">
 
     <ImageView
@@ -17,33 +17,6 @@
         android:layout_marginVertical="10dp"
         android:text="Simple BMI Calculator" />
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/radio_button_male"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Male" />
-
-        <RadioButton
-            android:id="@+id/radio_button_female"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Female" />
-    </RadioGroup>
-
-    <EditText
-        android:id="@+id/edit_text_age"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:inputType="number"
-        android:hint="Age"
-        />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -85,6 +58,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="10dp"
-        android:text="Y40.5 Start hitting gym!" />
+        android:text="" />
 
 </LinearLayout>
